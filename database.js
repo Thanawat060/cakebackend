@@ -1,3 +1,3 @@
 module.exports={
-    db:'mongodb+srv://admin:12345@cluster0.2e6fo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+    db:'mongodb+srv://Pmqzall01234:Bokll01234@cluster0.xlt4e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 }
