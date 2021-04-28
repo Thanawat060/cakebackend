@@ -15,7 +15,7 @@ mongoose.connect(database.db, {
     console.log('Cannot connect to database ' + error)
 })
 
-const productAPI = require('./routes/product.route');
+const productAPI = require('../routes/product.route');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
