@@ -1,9 +1,9 @@
 const express = require('express');
 const ProductRoute = express.Router();
 
-let ProductModel = require('../models/Product');
-let UsersModel = require('../models/Users');
-let OrderModel = require('../models/Order');
+let ProductModel = require('./models/Product');
+let UsersModel = require('./models/Users');
+let OrderModel = require('./models/Order');
 
 // ดึงสินค้าทั้งหมดออกมา
 ProductRoute.route('/').get((req,res,next)=>{
